@@ -11,7 +11,10 @@ public class TriggerProjectile : MonoBehaviour
             for (int i = 0; i <= 4; i++)
             {
                 if (projectile[i] != null)
+                {
                     projectile[i].SetActive(true);
+                    Destroy(gameObject);
+                }
             }
         }
     }
