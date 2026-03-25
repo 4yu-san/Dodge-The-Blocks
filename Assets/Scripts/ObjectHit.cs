@@ -14,6 +14,7 @@ public class ObjectHit : MonoBehaviour
         {
             GetComponent<MeshRenderer>().material = Crimson_Color;
             gameObject.tag = "Hit";
-        }//Debug.Log("Collision Occured");    
+            Debug.Log("Collision Occured"); 
+        }      
     }
 }
